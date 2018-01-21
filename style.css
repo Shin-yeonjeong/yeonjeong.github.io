@@ -1,0 +1,81 @@
+@font-face{
+    font-family:'nanumsquare';
+    src: local('nanumsquare'),url('/font/nanumsquare.ttf');
+}
+body{font-family: nanumsquare;}
+
+.background{
+    background-image: url(img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-top: 80px;
+    color: #fff;
+}
+
+.center-img img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+h3 {
+    text-align: center;
+}
+
+p.txt {
+    text-align: center;
+}
+
+.warp {
+    margin-top: 100px;
+}
+
+.upper {
+    display: block;
+    text-align: center;
+    
+    margin-top: 50px;
+}
+
+.textbox{padding-left: 50px;}
+.yellow-box {
+    background-color: yellow;
+    width:100%; height: 100%; opacity: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.position {
+    position: relative;
+}
+
+.yellow-box:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.yellow-box p{
+    z-index: 99;
+    position: relative; top: 45%;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
